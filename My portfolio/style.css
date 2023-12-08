@@ -1,0 +1,168 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F8F1EC;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+
+.container{
+    /* border: 2px solid red; */
+    /* background-color:#F8F1EC; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color:white;
+
+    /* font-family: 'Cabin', sans-serif;
+   font-family: 'Oswald', sans-serif; */
+   font-family: 'Cabin', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Pontano Sans', sans-serif;
+}
+.navbar{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav-right-heading{
+    color: white;
+ font-size: 18px;
+}
+.nav-right-heading:hover{
+    color: aqua;
+    transition: color 0.3s ease;
+   }
+.t-button{
+    background-color: aliceblue;
+}
+.head{
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.mypic{
+    height: 220px;
+    width: 220px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+.name{
+    font-size: 35px;
+    color: aqua;
+}
+.intro-para{
+   
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Vesper Libre', serif;
+
+    font-weight:400;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.project-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-container img{
+    margin-top: 20px;
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+.tech{
+    padding: 5px 10px;
+}
+.skills-used{
+    text-align: center;
+}
+.service-container{
+    margin-top: 25px;
+    display: flex;
+        /* border: 2px solid red; */
+  
+    justify-content: space-around;
+}
+.service-container p{
+    opacity: 0.8;
+}
+.service-content{
+    padding: 20px;
+}
+.service-head{
+    padding: 20px 0px;
+}
+.service-row{
+    display: flex;
+    
+}
+.service-bottom{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+
+}
+.rights{
+    font-size: 15px;
+    color: aqua;
+    opacity: 0.7;
+}
+
+@media screen and (max-width:1200px){
+   .name{
+    font-size: 35px;
+   }
+    }
+
+    @media screen and (max-width:992px){
+        .name{
+         font-size: 30px;
+        }
+        .project-container img{
+            height: 150px;
+            width: 180px;
+           }
+         }
+         @media screen and (max-width:768px){
+            .name{
+             font-size: 25px;
+            }
+            .mypic{
+                height: 200px;
+                width: 200px;
+            }
+            .rights{
+                font-size: 10px;
+             }
+             @media screen and (max-width:576px){
+                .name{
+                 font-size: 20px;
+                }
+                .mypic{
+                    height: 150px;
+                    width: 150px;
+                }
+                .project-container img{
+                    height: 100px;
+                    width: 120px;
+                   }
+                   .nav-right-heading{
+                    font-size: 15px;
+                   }
+                   .rights{
+                    font-size: 7px;
+                 }}
